@@ -1,0 +1,40 @@
+:root {
+    --main-color: #007FC8;
+    --secondary-color: #FFE066;
+    --accent-color: #FFF
+}
+
+.footerDiv {
+    position: absolute;
+    top: 300vh;
+    width: 100vw;
+}
+
+.footerText {
+    font-size: 4rem;
+    font-family: 'Teko';
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+
+@media (max-width: 750px){
+    .footerDiv{
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .footerText{
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .footerText{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 400px){
+    .footerText{
+        font-size: 2.4rem;
+    }
+}

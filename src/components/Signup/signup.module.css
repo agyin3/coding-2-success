@@ -1,0 +1,153 @@
+:root {
+    --main-color: #007FC8;
+    --secondary-color: #FFE066;
+    --accent-color: #FFF
+}
+
+.thanksMsg {
+    font-size: 2.6rem;
+    transition: 0.5s;
+}
+
+.errorMsg {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #721629;
+}
+
+.signupHeading {
+    color: var(--accent-color);
+    font-family: 'Montserrat';
+    font-size: 5.6rem;
+    text-align: center;
+    width: 50%;
+}
+
+.signupBrand {
+    color: var(--secondary-color);
+    font-family: 'Teko';
+    font-size: 7.2rem;
+}
+
+input {
+    height: 6rem;
+    width: 35rem;
+    font-size: 2rem;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    border: none;
+}
+
+button {
+    height: 6rem;
+    width: 14rem;
+    color: var(--secondary-color);
+    background: none;
+    border: 5px solid var(--secondary-color);
+    font-size: 2.4rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: var(--secondary-color);
+    color: var(--main-color);
+}
+
+@media (max-width: 1050px) {
+    .signupDiv{
+        width: 70% !important;
+    }
+    .signupHeading {
+        font-size: 5.4rem;
+        width: 90%;
+    }
+    
+    .signupBrand {
+        font-size: 7.2rem;
+    }
+
+    /* input {
+        height: 4.8rem;
+    }
+    
+    button {
+        height: 4.8rem;
+        font-size: 2rem;
+    } */
+}
+
+
+@media (max-width: 750px) {
+    .signupDiv{
+        flex-direction: column !important;
+        width: 70% !important;
+    }
+
+    .signupHeading {
+        font-size: 4.8rem;
+        width: 90%;
+    }
+    
+    .signupBrand {
+        font-size: 6rem;
+    }
+
+    input {
+        width: 90%;
+        height: 4.8rem;
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+    
+    button {
+        width: 90%;
+        height: 4.8rem;
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .signupDiv{
+        flex-direction: column !important;
+        width: 90% !important;
+    }
+
+    .signupHeading {
+        font-size: 4.4rem;
+        width: 90%;
+    }
+    
+    .signupBrand {
+        font-size: 5.6rem;
+    }
+
+    input {
+        height: 4.2rem;
+    }
+    
+    button {
+        height: 4.2rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .signupHeading {
+        font-size: 3.6rem;
+    }
+    
+    .signupBrand {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .signupHeading {
+        font-size: 3.2rem;
+    }
+    
+    .signupBrand {
+        font-size: 3.6rem;
+    }
+}
