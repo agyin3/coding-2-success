@@ -54,7 +54,7 @@ const SEO = ({description, lang, title, meta}) => {
                 },
                 {
                     property: 'og:image',
-                    content: 'src/assets/preview.png'
+                    content: 'https://raw.githubusercontent.com/agyin3/coding-2-success/master/src/assets/preview.png'
                 },
                 {
                     name: 'twitter:card',
